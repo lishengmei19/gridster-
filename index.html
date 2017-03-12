@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>grister布局</title>
+  <link rel="stylesheet" type="text/css" href="less/common/jquery.gridster.css">
+  <link rel="stylesheet/less" type="text/css" href="less/index.less">
+  <script type="text/javascript" src="js/common/less.min.js"></script>
+  <script type="text/javascript" src="js/common/jquery.js"></script>
+  <script type="text/javascript" src="js/common/jquery.gridster.js"></script>
+</head>
+
+<body>
+  <div class="main">
+    <div class="title">
+      <div class="left">
+        我的空间
+      </div>
+      <div class="right">
+        <button type="button" name="button" id="change">编辑</button>
+        <button type="button" name="button" id="store">保存</button>
+      </div>
+    </div>
+    <div class="gridster">
+      <ul>
+        <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+          <header>
+            <span class="move">|||</span> 我的头像
+            <span class="delete">删除</span>
+          </header>
+          <div class="a-image">
+            <a href="#"><img src="image/portraits.jpg" alt="头像"></a>
+          </div>
+        </li>
+        <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+          <header>
+            <span class="move">|||</span> 我的信息
+            <span class="delete">删除</span>
+          </header>
+          <p>姓名：李盛美</p>
+          <p>年龄：22</p>
+          <p>毕业院校：重庆大学</p>
+          <p>专业：网络工程</p>
+          <p>爱好：歌曲</p>
+        </li>
+        <li data-row="2" data-col="1" data-sizex="2" data-sizey="1">
+          <header>
+            <span class="move">|||</span> 导航
+            <span class="delete">删除</span>
+          </header>
+          <div class="content">
+            <a href="#">我的相册</a>
+            <a href="#">我的说说</a>
+            <a href="#">我的日记</a>
+            <a href="#">资料修改</a>
+            <a href="#">查找好友</a>
+          </div>
+        </li>
+        <li data-row="3" data-col="1" data-sizex="2" data-sizey="1">
+          <header>
+            <span class="move">|||</span> 我的说说
+            <span class="delete">删除</span>
+          </header>
+          <div class="content">
+            <a href="#">
+              <p>我的说说我的说说我的说说我的说说我的说说我的说说我的说说 </p><span class="time">2017.12.12</span> </a>
+            <a href="#">
+              <p>我的说说 </p><span class="time">2017.1.1</span></a>
+            <a href="#">
+              <p>我的说说 </p><span class="time">2017.1.1</span></a>
+            <a href="#">
+              <p>我的说说 </p><span class="time">2017.1.1</span></a>
+            <a href="#">
+              <p>我的说说 </p><span class="time">2017.1.1</span></a>
+            <a href="#">
+              <p>我的说说 </p><span class="time">2017.1.1</span></a>
+            <a href="#">
+              <p>我的说说 </p><span class="time">2017.1.1</span></a>
+          </div>
+        </li>
+        <li data-row="1" data-col="3" data-sizex="2" data-sizey="1">
+          <header>
+            <span class="move">|||</span> 我的日记
+            <span class="delete">删除</span>
+          </header>
+          <div class="content">
+            <a href="#">
+              <p>我的日记 </p><span class="time">2017.12.12</span> </a>
+            <a href="#">
+              <p>我的日记 </p><span class="time">2017.1.1</span></a>
+            <a href="#">
+              <p>我的日记 </p><span class="time">2017.1.1</span></a>
+            <a href="#">
+              <p>我的日记 </p><span class="time">2017.1.1</span></a>
+            <a href="#">
+              <p>我的日记 </p><span class="time">2017.1.1</span></a>
+            <a href="#">
+              <p>我的日记 </p><span class="time">2017.1.1</span></a>
+            <a href="#">
+              <p>我的日记 </p><span class="time">2017.1.1</span></a>
+          </div>
+        </li>
+        <li data-row="2" data-col="3" data-sizex="3" data-sizey="2">
+          <header>
+            <span class="move">|||</span> 我的相册
+            <span class="delete">删除</span>
+          </header>
+          <div class="a-image">
+            <a href="#"><img src="image/photo.jpg" alt="照片"></a>
+          </div>
+
+        </li>
+        <li data-row="1" data-col="5" data-sizex="1" data-sizey="1">
+          <header>
+            <span class="move">|||</span> 天气
+            <span class="delete">删除</span>
+          </header>
+          <div class="content">
+            <p>明日天气：晴朗</p>
+            <p>今日天气：晴朗</p>
+            <p>昨日天气：阴雨</p>
+            <button type="button" name="button">查看详情</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="modules">
+    </div>
+  </div>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
